@@ -24,6 +24,8 @@ options = {
     "--dbs": True,  # Enumerate DBMS databases
     "--tables": True,  # Enumerate DBMS database tables
     "--columns": True,  # Enumerate DBMS database table columns
+    "--dump": True,
+    "--repair": True,
     "--crawl=": 2,  # Crawl the website starting from the target URL. Valid: integer
     "--answers=": answers  # Set predefined answers (e.g. "quit=N,follow=N")
 }
@@ -38,6 +40,6 @@ for option in options:
         if type(value) is int:
             command += option + str(value)
         if type(value) is tuple:
-            command += option + "\"{}\"".format(','.join(answers))
+            command += option + "\"{}\"".format(','.join(value))
 print(command)
 os.system(command)
