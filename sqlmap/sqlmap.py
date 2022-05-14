@@ -338,6 +338,12 @@ def main():
             logger.critical(errMsg)
             raise SystemExit
 
+        elif "invalid maximum character passed to PyUnicode_New" in excMsg and re.search(r"\A3\.[34]", sys.version) is not None:
+            errMsg = "please upgrade the Python version (>= 3.5) "
+            errMsg += "(Reference: 'https://bugs.python.org/issue18183')"
+            logger.critical(errMsg)
+            raise SystemExit
+
         elif all(_ in excMsg for _ in ("scramble_caching_sha2", "TypeError")):
             errMsg = "please downgrade the 'PyMySQL' package (=< 0.8.1) "
             errMsg += "(Reference: 'https://github.com/PyMySQL/PyMySQL/issues/700')"
@@ -360,6 +366,12 @@ def main():
             errMsg = "error occurred at Python interpreter which "
             errMsg += "is fixed in 2.7.3. Please update accordingly "
             errMsg += "(Reference: 'https://docs.python.org/2/library/sys.html')"
+            logger.critical(errMsg)
+            raise SystemExit
+
+        elif "AttributeError: unable to access item" in excMsg and re.search(r"3\.11\.\d+a", sys.version):
+            errMsg = "there is a known issue when sqlmap is run with ALPHA versions of Python 3.11. "
+            errMsg += "Please downgrade to some stable Python version"
             logger.critical(errMsg)
             raise SystemExit
 
@@ -443,6 +455,12 @@ def main():
 
         elif all(_ in excMsg for _ in ("SyntaxError: Non-ASCII character", ".py on line", "but no encoding declared")):
             errMsg = "invalid runtime environment ('%s')" % excMsg.split("Error: ")[-1].strip()
+            logger.critical(errMsg)
+            raise SystemExit
+
+        elif all(_ in excMsg for _ in ("PermissionError: [WinError 5]", "multiprocessing")):
+            errMsg = "there is a permission problem in running multiprocessing on this system. "
+            errMsg += "Please rerun with '--disable-multi'"
             logger.critical(errMsg)
             raise SystemExit
 
