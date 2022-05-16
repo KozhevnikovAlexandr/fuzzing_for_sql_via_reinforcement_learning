@@ -11,6 +11,7 @@ import re
 import shutil
 import tempfile
 import threading
+import json
 
 from lib.core.common import Backend
 from lib.core.common import checkFile
@@ -68,6 +69,9 @@ class Dump(object):
     def __init__(self):
         self._outputFile = None
         self._outputFP = None
+        self._outputJson = None
+        self._outputJsonFP = None
+        self._dumped = False
         self._lock = threading.Lock()
 
     def _write(self, data, newline=True, console=True, content_type=None):
@@ -108,11 +112,18 @@ class Dump(object):
             return
 
         self._outputFile = os.path.join(conf.outputPath, "log")
+        self._outputJson = os.path.join(conf.outputPath, "dbTableColumns.json")
         try:
             self._outputFP = openFile(self._outputFile, "ab" if not conf.flushSession else "wb")
         except IOError as ex:
             errMsg = "error occurred while opening log file ('%s')" % getSafeExString(ex)
             raise SqlmapGenericException(errMsg)
+
+        try:
+            self._outputJsonFP = openFile(self._outputJson, "ab")
+        except IOError as ex:
+            errMsg = "error occurred while opening log file ('%s')" % getSafeExString(ex)
+            raise Exception(errMsg)
 
     def singleString(self, data, content_type=None):
         self._write(data, content_type=content_type)
@@ -280,6 +291,14 @@ class Dump(object):
         if isinstance(tableColumns, dict) and len(tableColumns) > 0:
             if conf.api:
                 self._write(tableColumns, content_type=content_type)
+
+            if not self._dumped:
+                self._dumped = True
+                try:
+                    json.dump(tableColumns, self._outputJsonFP)
+                except IOError as ex:
+                    errMsg = "error occurred while writing to log file ('%s')" % getSafeExString(ex)
+                    raise Exception(errMsg)
 
             for db, tables in tableColumns.items():
                 if not db:
