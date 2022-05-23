@@ -11,7 +11,7 @@ answers = {
     "reduce": "y",  # it is recommended to perform only basic UNION tests if there is not at least one other (potential) technique found. Do you want to reduce the number of requests? [Y/n]
     "other DBMSes": "y",  # it looks like the back-end DBMS is '...'. Do you want to skip test payloads specific for other DBMSes? [Y/n]
     "remaining tests": "y",  # for the remaining tests, do you want to include all tests for 'MySQL' extending provided level (1) and risk (1) values? [Y/n]
-    "keep testing": "y",  # POST parameter '...' is vulnerable. Do you want to keep testing the others (if any)? [y/N]
+    "keep testing": "n",  # POST parameter '...' is vulnerable. Do you want to keep testing the others (if any)? [y/N]
     "exploit": "y",  # do you want to exploit this SQL injection? [Y/n]
     "skip further tests": "n",  # SQL injection vulnerability has already been detected against '...'. Do you want to skip further tests involving it? [Y/n]
     "threads": "1",  # please enter number of threads? [Enter for 1 (current)]
@@ -24,7 +24,7 @@ options = {
     "--dbs": True,  # Enumerate DBMS databases
     "--tables": True,  # Enumerate DBMS database tables
     "--columns": True,  # Enumerate DBMS database table columns
-    "--dump-all": True,  # Dump all DBMS databases tables entries
+    "--dump-all": False,  # Dump all DBMS databases tables entries
     "--repair": True,  # Redump entries having unknown character marker (?)
     "--crawl=": 2,  # Crawl the website starting from the target URL. Valid: integer
     "--level=": 5,  # Level of tests to perform (1-5, default 1)
