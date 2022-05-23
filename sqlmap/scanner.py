@@ -27,6 +27,8 @@ options = {
     "--dump-all": True,  # Dump all DBMS databases tables entries
     "--repair": True,  # Redump entries having unknown character marker (?)
     "--crawl=": 2,  # Crawl the website starting from the target URL. Valid: integer
+    "--level=": 5,  # Level of tests to perform (1-5, default 1)
+    "--risk=": 3,  # Risk of tests to perform (1-3, default 1)
     "--answers=": answers  # Set predefined answers (e.g. "quit=N,follow=N")
 }
 
