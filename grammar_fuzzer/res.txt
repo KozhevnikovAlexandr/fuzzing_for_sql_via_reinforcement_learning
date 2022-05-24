@@ -1,0 +1,1101 @@
+SELECT ssn, ssn FROM Users_DB WHERE email_address <> "q@jz.org"
+SELECT name FROM Users_DB WHERE ssn <> "219-90-6288"
+SELECT email_address FROM Users_DB WHERE age > "61" AND phone_number = "(242)657-4673"
+SELECT name FROM Users_DB WHERE phone_number = "(320)977-4045"
+SELECT ssn, ssn FROM Users_DB WHERE age > "49" UNION SELECT ssn FROM Users_DB WHERE age >= "48"
+error
+SELECT phone_number FROM Users_DB WHERE ssn = "766-23-4068" CROSS JOIN Users_DB OR email_address = "e@w.edu"
+error
+SELECT name FROM Users_DB WHERE name = "xzt"
+SELECT email_address, email_address, email_address FROM Users_DB WHERE age < "87"
+SELECT age, phone_number FROM Users_DB WHERE age = "33" OR age <= "78"
+SELECT phone_number FROM Users_DB WHERE name = "ptwm" CROSS JOIN Users_DB
+error
+SELECT ssn, name FROM Users_DB WHERE age > "35" AND age < "87"
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "926-22-4640" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn = "981-44-5595" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE ssn <> "729-62-9819" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "27" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "2" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn = "546-35-5346" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn, ssn, ssn FROM Users_DB WHERE ssn <> "504-20-8944" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "74"
+SELECT ssn, email_address, ssn, ssn, ssn FROM Users_DB WHERE age > "92" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE phone_number = "(755)861-8680" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "45" AND age > "46"
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "9"
+SELECT ssn, ssn FROM Users_DB WHERE age > "19" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, age FROM Users_DB WHERE age > "34" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "87" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "27" CROSS JOIN Users_DB
+error
+SELECT phone_number, ssn FROM Users_DB WHERE ssn <> "021-86-2796"
+SELECT ssn, name FROM Users_DB WHERE age > "16" ORDER BY ssn
+SELECT phone_number, ssn FROM Users_DB WHERE ssn = "332-06-6051" CROSS JOIN Users_DB
+error
+SELECT age, ssn FROM Users_DB WHERE age > "36" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "836-91-2500" CROSS JOIN Users_DB
+error
+SELECT ssn, age FROM Users_DB WHERE age > "54" ORDER BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "779-87-2228" CROSS JOIN Users_DB
+error
+SELECT email_address, ssn FROM Users_DB WHERE age > "39" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn = "854-62-7602" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "690-04-4873" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "151-51-6857" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn <> "421-26-6038" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "34"
+SELECT phone_number, ssn FROM Users_DB WHERE ssn = "494-30-7321" ORDER BY ssn
+SELECT ssn, ssn, age FROM Users_DB WHERE ssn = "329-42-8513" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "21" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn = "201-38-1564" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "91" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "644-28-2386" CROSS JOIN Users_DB
+error
+SELECT name, ssn FROM Users_DB WHERE ssn <> "117-77-2193" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn, ssn FROM Users_DB WHERE ssn = "521-28-7636" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "77" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "52"
+SELECT ssn, ssn, ssn, ssn, ssn FROM Users_DB WHERE ssn <> "150-90-6922" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age = "12"
+SELECT ssn, ssn FROM Users_DB WHERE age > "34" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age = "23"
+SELECT ssn, ssn FROM Users_DB WHERE age > "26" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "76"
+SELECT ssn, ssn, ssn FROM Users_DB WHERE ssn = "555-89-0313" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "875-35-3429" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn, ssn, ssn, ssn FROM Users_DB WHERE ssn = "597-87-5965" CROSS JOIN Users_DB
+error
+SELECT age, name FROM Users_DB WHERE age > "3" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE ssn <> "664-45-1502" CROSS JOIN Users_DB
+error
+SELECT phone_number, ssn, ssn, ssn FROM Users_DB WHERE ssn = "144-14-6647" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn, ssn, ssn FROM Users_DB WHERE ssn = "614-02-9438" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn = "102-27-2794" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "6" CROSS JOIN Users_DB
+error
+SELECT ssn, name, ssn FROM Users_DB WHERE age > "81" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE ssn = "402-47-1768" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn, ssn FROM Users_DB WHERE ssn = "768-76-5341" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn <> "514-99-9093" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE ssn <> "336-28-6785" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn = "814-48-4768" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age >= "82" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "19" CROSS JOIN Users_DB
+error
+SELECT ssn, name, ssn FROM Users_DB WHERE ssn = "586-05-3256" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "23" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE phone_number = "(886)504-9552" CROSS JOIN Users_DB
+error
+SELECT email_address FROM Users_DB WHERE email_address = "l@s.edu" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "155-11-5883" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "85"
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age < "94"
+SELECT ssn, ssn FROM Users_DB WHERE age > "28" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "90" GROUP BY ssn
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "72" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "3" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "83" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE ssn <> "406-01-3268" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "8"
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "196-01-8153" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn = "126-24-7461" CROSS JOIN Users_DB
+error
+SELECT email_address FROM Users_DB WHERE ssn = "141-61-3519" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "31" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "87" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn = "764-33-5632" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "74" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "7" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "19"
+SELECT ssn, ssn FROM Users_DB WHERE age > "70" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "57" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "40" CROSS JOIN Users_DB
+error
+SELECT phone_number, ssn, ssn FROM Users_DB WHERE age > "78" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn <> "985-64-9773" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "78" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "30" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn = "418-89-7152" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "40" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "10"
+SELECT ssn, ssn FROM Users_DB WHERE age > "5" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "16" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn = "468-66-7577" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn = "609-36-1375" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn = "105-02-2042" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn <> "158-97-9101"
+SELECT ssn, phone_number, ssn FROM Users_DB WHERE ssn <> "945-59-1208" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn = "504-17-4223" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "24" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "834-97-0069" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "757-70-6296" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE phone_number = "(772)393-9604" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "83" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn <> "746-05-4044" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE ssn <> "708-21-5275"
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "642-53-2337" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "94" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "64" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "35" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "532-25-7832" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "66" CROSS JOIN Users_DB
+error
+SELECT name, ssn, ssn, ssn, ssn FROM Users_DB WHERE ssn = "052-68-2904" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn <> "175-44-3754" CROSS JOIN Users_DB
+error
+SELECT name, ssn FROM Users_DB WHERE age > "24" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE ssn = "791-20-0800" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "704-60-3299" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "53" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "86" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "35" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn, age FROM Users_DB WHERE ssn = "613-00-6276" ORDER BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "76" AND age > "13"
+SELECT ssn, ssn, ssn, ssn FROM Users_DB WHERE ssn = "493-59-4491" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "81" AND ssn = "446-33-5069"
+SELECT ssn, ssn FROM Users_DB WHERE age > "99" GROUP BY ssn
+SELECT ssn, ssn, ssn FROM Users_DB WHERE ssn = "057-70-3970" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "87" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "83" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "57" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "97" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "466-92-0687" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "323-78-6759"
+SELECT ssn, ssn, ssn, ssn, ssn FROM Users_DB WHERE ssn <> "437-56-6155" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "84"
+SELECT ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "56" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "951-71-6562" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age >= "10" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE age > "40" AND ssn = "114-35-1232"
+SELECT ssn, ssn FROM Users_DB WHERE age > "44" CROSS JOIN Users_DB
+error
+SELECT age, ssn FROM Users_DB WHERE age > "16" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, name, ssn FROM Users_DB WHERE ssn <> "308-43-1323" CROSS JOIN Users_DB
+error
+SELECT email_address, ssn FROM Users_DB WHERE age > "42" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn, ssn, ssn FROM Users_DB WHERE ssn <> "023-77-6969" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "47" CROSS JOIN Users_DB
+error
+SELECT ssn, email_address, phone_number FROM Users_DB WHERE age > "48" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn, age FROM Users_DB WHERE ssn = "071-33-5263" CROSS JOIN Users_DB
+error
+SELECT phone_number FROM Users_DB WHERE age > "89" UNION SELECT ssn FROM Users_DB WHERE age > "92"
+SELECT ssn, ssn FROM Users_DB WHERE age > "55" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "88"
+SELECT ssn, ssn FROM Users_DB WHERE age > "82" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn = "494-15-3072" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "31" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "760-49-1754" CROSS JOIN Users_DB
+error
+SELECT ssn, email_address, ssn, ssn FROM Users_DB WHERE ssn = "566-17-3265" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn = "643-03-5192" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "62" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn <> "796-33-8492" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn = "395-40-8247" UNION SELECT ssn FROM Users_DB WHERE age > "47"
+SELECT ssn, email_address FROM Users_DB WHERE age > "18" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "75" CROSS JOIN Users_DB
+error
+SELECT phone_number, ssn FROM Users_DB WHERE age > "24" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE ssn <> "959-36-8026" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "83" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "684-39-2882" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "37"
+SELECT ssn, name, ssn FROM Users_DB WHERE age > "48" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn = "041-01-1139" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn = "545-30-3161" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "27" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "21" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "75"
+SELECT ssn FROM Users_DB WHERE ssn <> "014-81-9468" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "57" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "11" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age > "88" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE ssn = "578-23-3998" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn, ssn, ssn FROM Users_DB WHERE ssn = "317-52-7241" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age < "72"
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "70" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, ssn, ssn, ssn, ssn, ssn FROM Users_DB WHERE ssn = "543-90-7553" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn, email_address FROM Users_DB WHERE age > "3"
+SELECT ssn, ssn FROM Users_DB WHERE age > "18" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE ssn <> "672-13-2517" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE age >= "9" CROSS JOIN Users_DB
+error
+SELECT ssn FROM Users_DB WHERE name = "i" CROSS JOIN Users_DB
+error
+SELECT ssn, ssn FROM Users_DB WHERE email_address <> "q@jz.org"
+SELECT name FROM Users_DB WHERE ssn <> "219-90-6288"
+SELECT email_address FROM Users_DB WHERE age > "61" AND phone_number = "(242)657-4673"
+SELECT name FROM Users_DB WHERE phone_number = "(320)977-4045"
+SELECT ssn, ssn FROM Users_DB WHERE age > "49" UNION SELECT ssn FROM Users_DB WHERE age >= "48"
+SELECT ssn, ssn FROM Users_DB WHERE email_address <> "q@jz.org"
+SELECT name FROM Users_DB WHERE ssn <> "219-90-6288"
+SELECT email_address FROM Users_DB WHERE age > "61" AND phone_number = "(242)657-4673"
+SELECT name FROM Users_DB WHERE phone_number = "(320)977-4045"
+SELECT ssn, ssn FROM Users_DB WHERE age > "49" UNION SELECT ssn FROM Users_DB WHERE age >= "48"
+SELECT ssn, ssn FROM Users_DB WHERE email_address <> "q@jz.org"
+SELECT name FROM Users_DB WHERE ssn <> "219-90-6288"
+SELECT email_address FROM Users_DB WHERE age > "61" AND phone_number = "(242)657-4673"
+SELECT name FROM Users_DB WHERE phone_number = "(320)977-4045"
+SELECT email_address, ssn, name, phone_number, email_address FROM Users_DB WHERE name = "w"
+SELECT ssn FROM Users_DB WHERE age = "95" GROUP BY email_address HAVING age <= "19" AND age > "8"
+SELECT age FROM Users_DB WHERE age <> "99" ORDER BY ssn AND age = "49"
+SELECT name FROM Users_DB WHERE age < "57" ORDER BY age OR name = "e"
+SELECT ssn FROM Users_DB WHERE email_address = "th@oo.edu" ORDER BY phone_number
+SELECT phone_number, phone_number, name, name FROM Users_DB WHERE age < "8" ORDER BY email_address
+SELECT ssn, name FROM Users_DB WHERE age > "35" AND age > "87"
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "022-12-4643" GROUP BY ROLLUP (ssn)
+SELECT ssn, ssn FROM Users_DB WHERE email_address <> "q@jz.org"
+SELECT name FROM Users_DB WHERE ssn <> "219-90-6288"
+SELECT email_address FROM Users_DB WHERE age > "61" AND phone_number = "(242)657-4673"
+SELECT name FROM Users_DB WHERE phone_number = "(320)977-4045"
+SELECT email_address, ssn, name, phone_number, email_address FROM Users_DB WHERE name = "w"
+SELECT ssn FROM Users_DB WHERE age = "95" GROUP BY email_address HAVING age <= "19" AND age > "8"
+SELECT age FROM Users_DB WHERE age <> "99" ORDER BY ssn AND age = "49"
+SELECT name FROM Users_DB WHERE age < "57" ORDER BY age OR name = "e"
+SELECT ssn FROM Users_DB WHERE email_address = "th@oo.edu" ORDER BY phone_number
+SELECT phone_number, phone_number, name, name FROM Users_DB WHERE age < "8" ORDER BY email_address
+SELECT ssn, name FROM Users_DB WHERE age > "35" AND age > "87"
+SELECT ssn, ssn FROM Users_DB WHERE age > "47" GROUP BY ssn OR age > "87"
+SELECT ssn FROM Users_DB WHERE ssn <> "524-32-2093" GROUP BY ROLLUP (age)
+SELECT ssn, ssn FROM Users_DB WHERE email_address <> "q@jz.org"
+SELECT name FROM Users_DB WHERE ssn <> "219-90-6288"
+SELECT email_address FROM Users_DB WHERE age > "61" AND phone_number = "(242)657-4673"
+SELECT name FROM Users_DB WHERE phone_number = "(320)977-4045"
+SELECT ssn, ssn FROM Users_DB WHERE email_address <> "q@jz.org"
+SELECT name FROM Users_DB WHERE ssn <> "219-90-6288"
+SELECT email_address FROM Users_DB WHERE age > "61" AND phone_number = "(242)657-4673"
+SELECT name FROM Users_DB WHERE phone_number = "(320)977-4045"
+SELECT ssn, ssn FROM Users_DB WHERE email_address <> "q@jz.org"
+SELECT name FROM Users_DB WHERE ssn <> "219-90-6288"
+SELECT email_address FROM Users_DB WHERE age > "61" AND phone_number = "(242)657-4673"
+SELECT name FROM Users_DB WHERE phone_number = "(320)977-4045"
+SELECT ssn, ssn FROM Users_DB WHERE email_address <> "q@jz.org"
+SELECT ssn, ssn FROM Users_DB WHERE email_address <> "q@jz.org"
+SELECT name FROM Users_DB WHERE ssn <> "219-90-6288"
+SELECT email_address FROM Users_DB WHERE age > "61" AND phone_number = "(242)657-4673"
+SELECT name FROM Users_DB WHERE phone_number = "(320)977-4045"
+SELECT ssn, ssn FROM Users_DB WHERE email_address <> "q@jz.org"
+SELECT name FROM Users_DB WHERE ssn <> "219-90-6288"
+SELECT email_address FROM Users_DB WHERE age > "61" AND phone_number = "(242)657-4673"
+SELECT name FROM Users_DB WHERE phone_number = "(320)977-4045"
+SELECT ssn, ssn FROM Users_DB WHERE email_address <> "q@jz.org"
+SELECT name FROM Users_DB WHERE ssn <> "219-90-6288"
+SELECT email_address FROM Users_DB WHERE age > "61" AND phone_number = "(242)657-4673"
+SELECT name FROM Users_DB WHERE phone_number = "(320)977-4045"
+SELECT ssn, ssn FROM Users_DB WHERE email_address <> "q@jz.org"
+SELECT name FROM Users_DB WHERE ssn <> "219-90-6288"
+SELECT email_address FROM Users_DB WHERE age > "61" AND phone_number = "(242)657-4673"
+SELECT name FROM Users_DB WHERE phone_number = "(320)977-4045"
+SELECT ssn, ssn FROM Users_DB WHERE email_address <> "q@jz.org"
+SELECT ssn, ssn FROM Users_DB WHERE email_address <> "q@jz.org"
+SELECT ssn, ssn FROM Users_DB WHERE email_address <> "q@jz.org"
+SELECT name FROM Users_DB WHERE ssn <> "219-90-6288"
+SELECT email_address FROM Users_DB WHERE age > "61" AND phone_number = "(242)657-4673"
+SELECT name FROM Users_DB WHERE phone_number = "(320)977-4045"
+SELECT ssn, ssn FROM Users_DB WHERE email_address <> "q@jz.org"
+SELECT name FROM Users_DB WHERE ssn <> "219-90-6288"
+SELECT email_address FROM Users_DB WHERE age > "61" AND phone_number = "(242)657-4673"
+SELECT name FROM Users_DB WHERE phone_number = "(320)977-4045"
+SELECT email_address, ssn, name, phone_number, email_address FROM Users_DB WHERE name = "w"
+SELECT ssn FROM Users_DB WHERE age = "95" GROUP BY email_address HAVING age <= "19" AND age > "8"
+SELECT age FROM Users_DB WHERE age <> "99" ORDER BY ssn AND age = "49"
+SELECT name FROM Users_DB WHERE age < "57" ORDER BY age OR name = "e"
+SELECT ssn FROM Users_DB WHERE email_address = "th@oo.edu" ORDER BY phone_number
+SELECT phone_number, phone_number, name, name FROM Users_DB WHERE age < "8" ORDER BY email_address
+SELECT email_address, name FROM Users_DB WHERE age > "35" AND age > "87"
+SELECT ssn, ssn, ssn FROM Users_DB WHERE ssn = "069-55-9997"
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "844-21-6022"
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "656-11-9819" GROUP BY ssn
+SELECT ssn, phone_number, ssn FROM Users_DB WHERE age > "59" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "76" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "50" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE age > "95" GROUP BY ssn HAVING age > "39"
+SELECT ssn, ssn FROM Users_DB WHERE age > "94" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "84" GROUP BY ssn
+SELECT age FROM Users_DB WHERE ssn <> "288-04-8995" GROUP BY name HAVING phone_number <> "(628)976-0770"
+SELECT ssn FROM Users_DB WHERE age > "28" GROUP BY ssn HAVING age > "7"
+SELECT ssn, ssn FROM Users_DB WHERE age > "83" GROUP BY ssn
+SELECT email_address, ssn FROM Users_DB WHERE age > "36" GROUP BY ssn HAVING age > "89"
+SELECT ssn, ssn, ssn, ssn, ssn FROM Users_DB WHERE ssn = "170-64-6187" GROUP BY name
+SELECT ssn, ssn FROM Users_DB WHERE age > "72" GROUP BY ssn
+SELECT ssn, email_address FROM Users_DB WHERE age > "7" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE age > "42" GROUP BY ssn HAVING age > "86"
+SELECT email_address FROM Users_DB WHERE ssn = "237-39-9581" GROUP BY ssn
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "66"
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "713-01-7387" GROUP BY age
+SELECT ssn, ssn FROM Users_DB WHERE age > "17" GROUP BY ssn HAVING age > "75"
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "54"
+SELECT ssn, ssn FROM Users_DB WHERE age > "12" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "33" GROUP BY ssn
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age >= "46" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "118-96-5127" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE ssn = "475-68-7759" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE ssn <> "530-34-1167" GROUP BY ssn
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "78" GROUP BY ssn
+SELECT ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "50"
+SELECT ssn FROM Users_DB WHERE ssn = "447-47-4756" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "55" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "34" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE ssn = "607-97-8842" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "80" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE age > "11" GROUP BY ssn HAVING age > "60"
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "87"
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "078-62-3056" GROUP BY ssn
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "36"
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "44"
+SELECT ssn, age FROM Users_DB WHERE age > "33" GROUP BY ssn HAVING age = "97"
+SELECT ssn FROM Users_DB WHERE age > "46" GROUP BY ssn HAVING age > "70"
+SELECT ssn FROM Users_DB WHERE age > "96" OR ssn = "408-24-3751"
+SELECT ssn, ssn FROM Users_DB WHERE age > "69" GROUP BY ssn
+SELECT name, name FROM Users_DB WHERE age > "89" GROUP BY ssn
+SELECT ssn, ssn, email_address FROM Users_DB WHERE age > "78" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "802-56-2914" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "71" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "48" GROUP BY ssn
+SELECT ssn, ssn, email_address, ssn FROM Users_DB WHERE age > "65" GROUP BY email_address
+SELECT ssn, ssn FROM Users_DB WHERE age <= "79" GROUP BY ssn HAVING age > "98" OR age > "91"
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "58" GROUP BY email_address
+SELECT ssn, ssn FROM Users_DB WHERE age > "37" GROUP BY ssn
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "25"
+SELECT ssn, ssn, ssn, ssn FROM Users_DB WHERE ssn = "742-54-2851" GROUP BY ssn
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "58"
+SELECT phone_number, phone_number, ssn FROM Users_DB WHERE age = "87"
+SELECT ssn, ssn FROM Users_DB WHERE age > "32" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "454-51-2202" GROUP BY ssn HAVING age > "54"
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "6"
+SELECT ssn FROM Users_DB WHERE age > "6" GROUP BY ssn HAVING age < "30"
+SELECT ssn, ssn FROM Users_DB WHERE age > "72" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE email_address = "d@t.edu" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE ssn = "590-88-8991" GROUP BY ssn HAVING age > "61"
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "35" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "9" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "41" AND email_address = "t@g.edu"
+SELECT ssn FROM Users_DB WHERE age > "89" GROUP BY ssn HAVING age > "5"
+SELECT ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "50" GROUP BY ssn
+SELECT ssn, ssn, ssn, ssn FROM Users_DB WHERE age = "48" GROUP BY ssn
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "11"
+SELECT ssn FROM Users_DB WHERE age > "97" GROUP BY ssn HAVING age > "23"
+SELECT ssn, ssn FROM Users_DB WHERE age > "32" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "83" GROUP BY ssn
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "92"
+SELECT ssn FROM Users_DB WHERE age > "86" GROUP BY ssn HAVING age > "40"
+SELECT ssn, phone_number FROM Users_DB WHERE age > "72" GROUP BY ssn HAVING age < "96"
+SELECT ssn FROM Users_DB WHERE age > "22" GROUP BY ssn HAVING ssn = "952-18-8256"
+SELECT ssn, ssn FROM Users_DB WHERE age >= "48" ORDER BY ssn
+SELECT ssn, name FROM Users_DB WHERE age > "76" GROUP BY ssn
+SELECT email_address FROM Users_DB WHERE ssn = "794-49-4784"
+SELECT ssn, ssn FROM Users_DB WHERE age = "3" GROUP BY ssn HAVING age > "69"
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "8"
+SELECT ssn FROM Users_DB WHERE age > "32" GROUP BY ssn HAVING age < "33"
+SELECT name, ssn FROM Users_DB WHERE ssn = "713-03-9616" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "613-65-1708" GROUP BY email_address
+SELECT ssn, ssn, ssn FROM Users_DB WHERE ssn = "636-33-2240"
+SELECT ssn FROM Users_DB WHERE age > "13" GROUP BY ssn HAVING age > "85"
+SELECT ssn, ssn FROM Users_DB WHERE age > "62" OR age > "45"
+SELECT ssn, ssn FROM Users_DB WHERE age > "42" ORDER BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "72" GROUP BY ssn
+SELECT ssn, ssn, age FROM Users_DB WHERE age > "16" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age < "80" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE ssn = "075-22-8223" GROUP BY email_address
+SELECT ssn, ssn, ssn FROM Users_DB WHERE ssn = "760-18-6624" GROUP BY ssn
+SELECT ssn, ssn, ssn FROM Users_DB WHERE ssn = "638-39-3203" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "36" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE age > "52" GROUP BY ssn HAVING age > "19"
+SELECT ssn, ssn FROM Users_DB WHERE age > "55" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "340-50-0226" ORDER BY ssn
+SELECT ssn, ssn, ssn FROM Users_DB WHERE name = "p" GROUP BY ssn
+SELECT ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "96" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE ssn = "495-25-7271" GROUP BY ssn HAVING age > "60"
+SELECT ssn FROM Users_DB WHERE ssn = "939-71-1377" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "72" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "796-96-1617" GROUP BY ssn
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "54"
+SELECT ssn, ssn FROM Users_DB WHERE age > "62" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "80" ORDER BY ssn
+SELECT ssn FROM Users_DB WHERE ssn = "792-75-2166" GROUP BY ssn HAVING age > "54"
+SELECT ssn, ssn FROM Users_DB WHERE age > "60" GROUP BY ssn HAVING age > "42"
+SELECT ssn FROM Users_DB WHERE age > "27" GROUP BY ssn HAVING age > "97"
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "015-29-6359" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "12" GROUP BY ssn
+SELECT ssn, ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "55"
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "15"
+SELECT ssn FROM Users_DB WHERE ssn = "642-68-7021" GROUP BY ssn
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "20"
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "79" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE age > "50" GROUP BY ssn HAVING age > "23"
+SELECT ssn, ssn FROM Users_DB WHERE age > "15" GROUP BY age
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "80" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "60" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE ssn = "931-18-9407" GROUP BY ssn
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "13" GROUP BY ssn HAVING age > "93"
+SELECT ssn, ssn FROM Users_DB WHERE age > "45" GROUP BY ssn HAVING age < "77"
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "99"
+SELECT ssn, ssn FROM Users_DB WHERE age >= "53" GROUP BY ssn
+SELECT ssn, ssn, ssn, ssn FROM Users_DB WHERE ssn <> "907-88-9797" GROUP BY ssn
+SELECT age, age, ssn FROM Users_DB WHERE ssn <> "862-17-6618"
+SELECT ssn FROM Users_DB WHERE ssn = "055-44-2341" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE ssn = "081-77-1979" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE ssn = "502-29-8177" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "74" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "52" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "2" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "14" GROUP BY ssn
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "40" GROUP BY ssn HAVING age > "38"
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "65"
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "83"
+SELECT ssn, ssn FROM Users_DB WHERE age > "38" GROUP BY ssn
+SELECT ssn, ssn, ssn, ssn FROM Users_DB WHERE age = "75" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE age <= "38" GROUP BY ssn HAVING age > "6"
+SELECT ssn FROM Users_DB WHERE age > "57" GROUP BY ssn HAVING ssn = "407-43-6273"
+SELECT ssn, ssn FROM Users_DB WHERE age <= "35" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE age > "46" GROUP BY ssn HAVING age > "20"
+SELECT ssn, ssn FROM Users_DB WHERE age > "33" GROUP BY ssn
+SELECT ssn, ssn, ssn FROM Users_DB WHERE ssn = "213-27-6835" ORDER BY ssn
+SELECT ssn FROM Users_DB WHERE email_address = "y@c.edu" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE age > "70" GROUP BY ssn HAVING age <= "30"
+SELECT ssn FROM Users_DB WHERE age > "46" AND ssn = "135-57-9863"
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "99"
+SELECT ssn, ssn FROM Users_DB WHERE age > "82" GROUP BY ssn
+SELECT ssn, ssn, phone_number FROM Users_DB WHERE age > "59"
+SELECT ssn, ssn FROM Users_DB WHERE age < "97" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "33" GROUP BY ssn HAVING age > "11"
+SELECT ssn FROM Users_DB WHERE ssn = "788-83-7280" GROUP BY ssn
+SELECT ssn, age FROM Users_DB WHERE age > "32" GROUP BY ssn
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "65"
+SELECT ssn, ssn FROM Users_DB WHERE age > "18" GROUP BY ssn
+SELECT ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "92" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "36" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "002-74-5285"
+SELECT ssn FROM Users_DB WHERE age > "54" GROUP BY ssn HAVING age > "20"
+SELECT ssn, ssn FROM Users_DB WHERE age > "18" GROUP BY ssn HAVING age > "99"
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "53" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "60" GROUP BY ssn
+SELECT ssn, name FROM Users_DB WHERE age > "5" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE ssn = "110-14-6130" GROUP BY ssn HAVING age > "31"
+SELECT ssn, ssn FROM Users_DB WHERE age > "92" GROUP BY ssn
+SELECT ssn, age FROM Users_DB WHERE age > "88" GROUP BY ssn
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "48" GROUP BY phone_number
+SELECT ssn, ssn FROM Users_DB WHERE age > "94" GROUP BY ssn
+SELECT ssn, ssn, phone_number FROM Users_DB WHERE age > "74" OR age > "10"
+SELECT ssn, ssn FROM Users_DB WHERE age >= "3" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "60" GROUP BY ssn
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "39"
+SELECT ssn FROM Users_DB WHERE ssn <> "326-51-5544" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "65" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE age > "96" GROUP BY ssn HAVING age > "86"
+SELECT ssn, ssn, email_address FROM Users_DB WHERE age > "18"
+SELECT ssn, ssn FROM Users_DB WHERE age > "60" GROUP BY ssn HAVING age > "27"
+SELECT ssn FROM Users_DB WHERE age > "60" GROUP BY ssn HAVING age > "61"
+SELECT ssn FROM Users_DB WHERE ssn = "607-54-4510" GROUP BY ssn
+SELECT ssn, phone_number FROM Users_DB WHERE ssn = "203-65-0913" GROUP BY ssn HAVING age > "74"
+SELECT ssn, ssn, ssn, ssn FROM Users_DB WHERE ssn = "258-23-5704" ORDER BY ssn
+SELECT age FROM Users_DB WHERE ssn = "624-63-1034" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "50" GROUP BY ssn HAVING age > "30"
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "67"
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT ssn FROM Users_DB WHERE age < "52" OR age >= "20" OR age <= "10"
+SELECT name, email_address, name FROM Users_DB WHERE ssn = "906-97-9105"
+SELECT email_address, age FROM Users_DB WHERE age < "46" OR age <= "94" OR phone_number = "(259)967-0437"
+SELECT name FROM Users_DB WHERE age >= "48" OR phone_number = "(819)424-0367"
+SELECT ssn FROM Users_DB WHERE age > "51" GROUP BY age OR age > "50"
+SELECT name FROM Users_DB WHERE ssn = "533-78-0475" ORDER BY phone_number
+SELECT ssn FROM Users_DB WHERE age <= "58"
+SELECT email_address FROM Users_DB WHERE email_address <> "i@bg.edu" ORDER BY phone_number
+SELECT email_address FROM Users_DB WHERE email_address = "t@q.edu" ORDER BY age
+SELECT ssn FROM Users_DB WHERE phone_number = "(412)517-7527" GROUP BY ssn
+SELECT ssn, ssn, phone_number FROM Users_DB WHERE ssn = "895-56-8549" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "74" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE ssn = "568-59-4172" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age = "9" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE age > "39" GROUP BY ssn HAVING ssn = "815-32-2970"
+SELECT ssn, ssn FROM Users_DB WHERE age > "39" GROUP BY email_address
+SELECT ssn FROM Users_DB WHERE ssn = "016-77-4111" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE ssn = "680-70-5220" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE ssn = "185-99-2526" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "49" GROUP BY ssn HAVING ssn = "037-10-6615"
+SELECT ssn FROM Users_DB WHERE ssn = "950-00-2861" GROUP BY phone_number
+SELECT ssn, ssn FROM Users_DB WHERE age > "58" GROUP BY ssn
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "44" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age > "13" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE ssn = "792-68-7086" GROUP BY ssn HAVING age = "14"
+SELECT ssn FROM Users_DB WHERE age > "90" GROUP BY ssn HAVING age > "50"
+SELECT ssn FROM Users_DB WHERE ssn = "713-01-1387" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT ssn FROM Users_DB WHERE age < "52" OR age >= "20" OR age <= "10"
+SELECT name, email_address, name FROM Users_DB WHERE ssn = "906-97-9105"
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT ssn FROM Users_DB WHERE age < "52" OR age >= "20" OR age <= "10"
+SELECT name, email_address, name FROM Users_DB WHERE ssn = "906-97-9105"
+SELECT DISTINCT email_address, age FROM Users_DB WHERE age < "46" OR age <= "94" OR phone_number = "(259)967-0437"
+SELECT name FROM Users_DB WHERE age >= "48" OR phone_number = "(819)424-0367"
+SELECT ssn FROM Users_DB WHERE age > "51" GROUP BY age OR age > "50"
+SELECT name FROM Users_DB WHERE ssn = "533-78-0475" ORDER BY phone_number
+SELECT DISTINCT ssn FROM Users_DB WHERE age <= "58"
+SELECT email_address FROM Users_DB WHERE email_address <> "i@bg.edu" ORDER BY phone_number
+SELECT email_address FROM Users_DB WHERE email_address = "t@q.edu" ORDER BY age
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "277-99-7014" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "822-00-5761" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "770-05-5441" GROUP BY age
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "669-94-9576" GROUP BY name
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "99" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, email_address FROM Users_DB WHERE age > "26" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "946-91-0063" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE ssn = "869-51-6291" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE ssn = "466-00-2879" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "667-97-8678" GROUP BY ssn HAVING age = "6"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "5" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "112-37-4846" GROUP BY ssn HAVING ssn = "832-32-0225"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "366-15-0185" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "680-97-6618" GROUP BY ssn HAVING age > "59"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "75" GROUP BY ssn HAVING age > "2"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "039-81-9818" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "56" AND age = "69"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "16" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "23" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "54" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "721-60-2844" GROUP BY ssn HAVING age > "79"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "64" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "21" GROUP BY ssn HAVING age > "68"
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "64" GROUP BY ssn HAVING age > "35"
+SELECT email_address, ssn FROM Users_DB WHERE phone_number = "(216)787-1766" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "89" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "16" GROUP BY ssn
+SELECT DISTINCT email_address FROM Users_DB WHERE ssn = "106-15-1116" GROUP BY ssn HAVING age > "23"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE phone_number = "(624)320-8181" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE phone_number = "(601)506-4621" GROUP BY ssn
+SELECT DISTINCT ssn, phone_number FROM Users_DB WHERE age > "37" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "425-15-4362" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "88" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "95" GROUP BY ssn HAVING age > "19"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "229-24-5171" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "22" GROUP BY ssn HAVING ssn = "088-66-6664"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age <= "67" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "242-78-3309" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address = "s@t.edu" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "710-19-2843" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "87" GROUP BY ssn OR age > "22"
+SELECT DISTINCT email_address FROM Users_DB WHERE ssn <> "092-19-6383" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "951-95-3827" GROUP BY age
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "64" GROUP BY ssn OR age > "61"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "784-28-4390" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "33" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address = "k@k.edu" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE age > "76" GROUP BY ssn HAVING ssn = "340-17-1427"
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "11"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "010-20-8618" GROUP BY age HAVING age > "96"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "8" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "926-86-5601" ORDER BY ssn
+SELECT DISTINCT ssn, phone_number, ssn FROM Users_DB WHERE ssn = "200-40-4460" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "55" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "81"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "20" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "825-77-2610" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "848-07-4783" GROUP BY ssn HAVING age > "39"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "37" GROUP BY age HAVING age > "3"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "347-61-6319" GROUP BY ssn HAVING age > "63"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "357-01-2184" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "64" GROUP BY email_address HAVING ssn = "229-86-6784"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "545-15-4029" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE ssn = "457-06-9604" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "574-31-6348" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE name = "d" ORDER BY ssn
+SELECT DISTINCT phone_number, ssn FROM Users_DB WHERE age > "3" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "292-82-9849" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE name = "c" GROUP BY ssn HAVING age > "72"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "269-00-7001" ORDER BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "746-84-0968" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE email_address = "e@p.edu" GROUP BY ssn HAVING age > "59"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "45" ORDER BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "51" GROUP BY ssn HAVING ssn = "617-92-5831"
+SELECT DISTINCT ssn, email_address, ssn FROM Users_DB WHERE age > "89"
+SELECT DISTINCT ssn FROM Users_DB WHERE age = "59" GROUP BY ssn HAVING age > "52"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "28" OR age > "54"
+SELECT ssn FROM Users_DB WHERE ssn = "136-18-0935" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE ssn = "955-16-1534" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age <= "40" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "819-92-3411" GROUP BY ssn HAVING age > "21"
+SELECT DISTINCT age, ssn FROM Users_DB WHERE email_address = "c@z.edu" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn <> "907-33-4747" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "5" GROUP BY ssn HAVING age > "24"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "956-86-3384" GROUP BY ssn HAVING age > "3"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "66" GROUP BY ssn HAVING age > "86"
+SELECT ssn, ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "29" GROUP BY ssn
+SELECT ssn, ssn FROM Users_DB WHERE age = "11" GROUP BY ssn
+SELECT ssn, ssn, ssn, name FROM Users_DB WHERE age > "97" GROUP BY ssn HAVING age > "71"
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "91"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "5" GROUP BY name HAVING age > "33"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "71" GROUP BY ssn HAVING age > "86"
+SELECT DISTINCT age FROM Users_DB WHERE age > "28" GROUP BY phone_number HAVING age > "20"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "838-51-0431" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "47" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "127-37-5773" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "532-64-5172" GROUP BY ssn HAVING age > "58"
+SELECT DISTINCT ssn FROM Users_DB WHERE age >= "92" GROUP BY ssn HAVING age > "87"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "471-43-4820" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "94" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "109-34-3979" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "62" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "60" GROUP BY email_address HAVING age > "19"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "285-41-3566" ORDER BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "428-57-8898" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "93" GROUP BY ssn HAVING age > "15"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "92" GROUP BY ssn HAVING age > "70"
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE ssn = "430-37-4258" GROUP BY ssn HAVING age > "71"
+SELECT DISTINCT ssn, email_address FROM Users_DB WHERE age > "16" GROUP BY ssn HAVING age > "65"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "4" GROUP BY ssn HAVING age > "48"
+SELECT DISTINCT ssn FROM Users_DB WHERE age >= "21" GROUP BY ssn HAVING age > "26"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "77" GROUP BY ssn HAVING age > "58"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "98" GROUP BY ssn HAVING age > "55"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "22" GROUP BY ssn HAVING age > "45"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "655-65-9303" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "226-61-5253" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "653-90-1511" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "8" GROUP BY ssn HAVING age > "66"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE email_address = "g@w.edu" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "655-03-4049" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "38" GROUP BY ssn
+SELECT DISTINCT age, ssn FROM Users_DB WHERE age > "58" GROUP BY ssn
+SELECT DISTINCT age, ssn FROM Users_DB WHERE ssn = "797-83-6941" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "2"
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "6" GROUP BY ssn HAVING ssn = "524-16-8065"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "56" GROUP BY name HAVING age > "9"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "327-08-4758" GROUP BY ssn HAVING age > "33"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "293-24-7189" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "96" GROUP BY ssn OR age > "7"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "3" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "80" GROUP BY ssn HAVING age > "32"
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "52"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "67" GROUP BY ssn AND age > "22"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "340-23-2425" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "44" GROUP BY ssn HAVING age > "45"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "23" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "19" GROUP BY ssn HAVING age > "87"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "48" GROUP BY ssn HAVING age > "45"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "638-07-7473" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "274-46-0515" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "99" GROUP BY ssn HAVING age = "7"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "49" GROUP BY ssn HAVING age > "38"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "38" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "54" GROUP BY ssn HAVING age >= "54"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "55" ORDER BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address = "m@n.edu" GROUP BY ssn HAVING age > "57"
+SELECT DISTINCT ssn FROM Users_DB WHERE age = "67" GROUP BY ssn HAVING age > "60"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "30" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "663-72-3148"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "76" GROUP BY ssn HAVING age > "18"
+SELECT ssn FROM Users_DB WHERE age > "36" GROUP BY ssn HAVING age <= "83"
+SELECT ssn, ssn, ssn FROM Users_DB WHERE age > "35" GROUP BY ssn HAVING age > "40"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "8" GROUP BY ssn HAVING age > "94"
+SELECT DISTINCT ssn, email_address FROM Users_DB WHERE age > "38" GROUP BY ssn HAVING age > "4"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "64" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "467-02-2148" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "48" GROUP BY ssn HAVING age > "81"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "990-17-4968" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "654-30-6325" GROUP BY ssn HAVING age > "83"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "729-16-4165" GROUP BY ssn HAVING age > "33"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "66" GROUP BY ssn HAVING age > "10"
+SELECT DISTINCT name, ssn FROM Users_DB WHERE age > "48" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "76" GROUP BY ssn HAVING age > "24"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "12" GROUP BY phone_number
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "79" GROUP BY ssn HAVING age > "99"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "120-44-0305" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "4"
+SELECT DISTINCT ssn, ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "34" GROUP BY ssn
+SELECT DISTINCT ssn, phone_number, ssn FROM Users_DB WHERE ssn = "900-34-8963" GROUP BY ssn HAVING age >= "85"
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "95"
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE ssn = "060-16-2679" GROUP BY name
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "83" GROUP BY ssn HAVING age > "70"
+SELECT DISTINCT ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "22" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "87" GROUP BY name AND age > "26"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "56" GROUP BY ssn HAVING age >= "85"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "292-85-4171" GROUP BY ssn HAVING age > "99"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "75" GROUP BY ssn HAVING age > "3"
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "68"
+SELECT DISTINCT phone_number, ssn FROM Users_DB WHERE ssn = "643-79-7908" ORDER BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "618-09-6202" GROUP BY ssn HAVING age > "84"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "28" GROUP BY ssn HAVING age > "66"
+SELECT DISTINCT age FROM Users_DB WHERE ssn = "422-98-7022" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age >= "67" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "125-40-9770" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "401-08-2320" GROUP BY age HAVING age > "14"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "16" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "45" GROUP BY ssn HAVING age > "80"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "46" GROUP BY ssn HAVING ssn = "433-42-7854"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "441-39-0740" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "5" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT ssn FROM Users_DB WHERE phone_number IN (SELECT phone_number FROM Users_DB WHERE age <= "80") OR age < "66"
+SELECT ssn FROM Users_DB WHERE age >= "17" GROUP BY name HAVING age < "25"
+SELECT ssn FROM Users_DB WHERE name <> "j" ORDER BY age
+SELECT age FROM Users_DB WHERE age < "14" AND ssn = "460-39-3757"
+SELECT email_address FROM Users_DB WHERE email_address IN (SELECT DISTINCT ssn FROM Users_DB WHERE ssn IN (SELECT ssn FROM Users_DB WHERE age < "65"))
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT ssn FROM Users_DB WHERE phone_number IN (SELECT phone_number FROM Users_DB WHERE age <= "80") OR age < "66"
+SELECT ssn FROM Users_DB WHERE age >= "17" GROUP BY name HAVING age < "25"
+SELECT ssn FROM Users_DB WHERE name <> "j" ORDER BY age
+SELECT age FROM Users_DB WHERE age < "14" AND ssn = "460-39-3757"
+SELECT email_address FROM Users_DB WHERE email_address IN (SELECT DISTINCT ssn FROM Users_DB WHERE ssn IN (SELECT ssn FROM Users_DB WHERE age < "65"))
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT ssn FROM Users_DB WHERE phone_number IN (SELECT phone_number FROM Users_DB WHERE age <= "80") OR age < "66"
+SELECT ssn FROM Users_DB WHERE age >= "17" GROUP BY name HAVING age < "25"
+SELECT ssn FROM Users_DB WHERE name <> "j" ORDER BY age
+SELECT age FROM Users_DB WHERE age < "14" AND ssn = "460-39-3757"
+SELECT email_address FROM Users_DB WHERE email_address IN (SELECT DISTINCT ssn FROM Users_DB WHERE ssn IN (SELECT ssn FROM Users_DB WHERE age < "65"))
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT ssn FROM Users_DB WHERE phone_number IN (SELECT phone_number FROM Users_DB WHERE age <= "80") OR age < "66"
+SELECT ssn FROM Users_DB WHERE age >= "17" GROUP BY name HAVING age < "25"
+SELECT ssn FROM Users_DB WHERE name <> "j" ORDER BY age
+SELECT age FROM Users_DB WHERE age < "14" AND ssn = "460-39-3757"
+SELECT email_address FROM Users_DB WHERE email_address IN (SELECT DISTINCT ssn FROM Users_DB WHERE ssn IN (SELECT ssn FROM Users_DB WHERE age < "65"))
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT ssn FROM Users_DB WHERE phone_number IN (SELECT phone_number FROM Users_DB WHERE age <= "80") OR age < "66"
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+SELECT ssn FROM Users_DB WHERE age < "52" OR age >= "20" OR age <= "10"
+SELECT name, email_address, name FROM Users_DB WHERE ssn = "906-97-9105"
+SELECT DISTINCT email_address, age FROM Users_DB WHERE age < "46" OR age <= "94" OR phone_number = "(259)967-0437"
+SELECT name FROM Users_DB WHERE age >= "48" OR phone_number = "(819)424-0367"
+SELECT ssn FROM Users_DB WHERE age > "51" GROUP BY age OR age > "50"
+SELECT name FROM Users_DB WHERE ssn = "533-78-0475" ORDER BY phone_number
+SELECT DISTINCT ssn FROM Users_DB WHERE age <= "58"
+SELECT email_address FROM Users_DB WHERE email_address <> "i@bg.edu" ORDER BY phone_number
+SELECT email_address FROM Users_DB WHERE email_address = "t@q.edu" ORDER BY age
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "277-99-7014" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "822-00-5761" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "770-05-5441" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "669-94-9576" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "99" GROUP BY ssn
+SELECT DISTINCT email_address, ssn, ssn FROM Users_DB WHERE age > "26" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "946-91-0063" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE ssn = "869-51-6291" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "71" GROUP BY name OR age > "79"
+SELECT DISTINCT age, ssn FROM Users_DB WHERE ssn = "068-68-9196" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "268-67-3730" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE ssn <> "369-61-4215"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "997-45-1395" GROUP BY ssn
+SELECT DISTINCT age, ssn FROM Users_DB WHERE age > "42" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "23" GROUP BY ssn HAVING ssn = "169-00-3099"
+SELECT DISTINCT age, ssn FROM Users_DB WHERE age > "31" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "827-87-4067" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "310-49-4593" GROUP BY ssn HAVING age > "30"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "724-30-3984" GROUP BY ssn HAVING age > "23"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "35" GROUP BY ssn
+SELECT DISTINCT email_address FROM Users_DB WHERE age > "35" GROUP BY ssn HAVING age > "71"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "277-85-5205" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "74" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "64" GROUP BY ssn HAVING ssn = "576-78-5789"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "557-92-2202" GROUP BY ssn HAVING age > "94"
+SELECT DISTINCT ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "34" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "84" GROUP BY ssn HAVING ssn <> "211-65-6345"
+SELECT DISTINCT ssn, name FROM Users_DB WHERE age > "55" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "867-55-7616" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "24" GROUP BY ssn HAVING age > "97"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "582-08-6599" GROUP BY phone_number HAVING age > "22"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "23" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age >= "64" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "27" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "035-29-0219" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "49" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE email_address = "f@f.edu" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age = "25" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "7" GROUP BY ssn
+SELECT DISTINCT phone_number, ssn FROM Users_DB WHERE age > "22" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "710-19-2843" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "193-95-6636" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE ssn = "901-80-2664" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "69" GROUP BY ssn
+SELECT DISTINCT email_address FROM Users_DB WHERE ssn = "827-71-5284" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "522-88-7240" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "27" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "26" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "443-48-3442" GROUP BY ssn HAVING ssn = "702-45-2102"
+SELECT DISTINCT name, ssn FROM Users_DB WHERE age > "39" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "98" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "086-63-7892" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "43" GROUP BY ssn HAVING age > "75"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "75" GROUP BY ssn HAVING age > "23"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "11" GROUP BY ssn HAVING age > "24"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "37" AND ssn = "824-99-4174"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "71" OR age > "79"
+SELECT DISTINCT ssn FROM Users_DB WHERE age = "48" GROUP BY ssn HAVING age > "17"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "47" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "10" GROUP BY ssn HAVING age > "92"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "77" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "284-65-3707" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age < "3" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "54"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "730-33-4590" GROUP BY ssn HAVING age > "50"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "977-17-8504" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age < "50" GROUP BY ssn HAVING age >= "73"
+SELECT DISTINCT ssn, email_address FROM Users_DB WHERE age > "51" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "836-18-9448" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "38" GROUP BY ssn HAVING age > "6"
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE ssn = "383-94-9137" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "632-16-2511" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn <> "404-41-3822" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "29" GROUP BY ssn HAVING age > "33"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "4" GROUP BY ssn
+SELECT DISTINCT ssn, name, ssn FROM Users_DB WHERE age > "77"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "56" GROUP BY ssn HAVING age > "70"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "16" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE ssn = "082-46-7073" GROUP BY ssn HAVING age > "28"
+SELECT DISTINCT ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "27" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "55" GROUP BY ssn HAVING age > "79"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "45" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "15" GROUP BY name HAVING age = "95"
+SELECT DISTINCT ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "39" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "58" GROUP BY ssn HAVING age > "33"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "269-06-2442" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "204-74-7427" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "93" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "327-43-7687" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age >= "85" OR ssn <> "606-60-7876"
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "73" GROUP BY ssn HAVING age > "94"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "11" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "110-86-1240" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, phone_number FROM Users_DB WHERE age > "47"
+SELECT DISTINCT ssn, ssn, ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "91" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "76" GROUP BY ssn OR age > "95"
+SELECT DISTINCT ssn FROM Users_DB WHERE name = "i" GROUP BY email_address
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "212-61-1973" GROUP BY ssn HAVING age > "18"
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "50"
+SELECT DISTINCT name, ssn FROM Users_DB WHERE age > "16" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "3" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "753-20-9285" GROUP BY ssn
+SELECT ssn, name FROM Users_DB WHERE ssn = "035-51-6649" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "69" AND age > "30"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "623-86-4636" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age < "48" GROUP BY ssn HAVING age > "51"
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "67" GROUP BY ssn
+SELECT DISTINCT name FROM Users_DB WHERE ssn = "531-76-7046"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "23" GROUP BY ssn HAVING age > "39"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "78" GROUP BY ssn HAVING age > "45"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "77" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "699-83-7549" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "295-62-5153" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "000-30-0120" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE age > "14" GROUP BY ssn HAVING age > "41"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "915-28-1515" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "59" GROUP BY ssn HAVING age > "55"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "77" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "558-53-6850" GROUP BY ssn
+SELECT DISTINCT name, ssn, ssn FROM Users_DB WHERE age > "55" GROUP BY ssn
+SELECT DISTINCT email_address, ssn, phone_number, ssn, ssn FROM Users_DB WHERE age > "73" GROUP BY ssn HAVING age > "54"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "88" AND ssn = "792-88-4951"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "84" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE ssn = "423-16-1184" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE ssn = "552-92-1807" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "46" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "87" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "568-60-6476" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age >= "38" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "39" GROUP BY ssn HAVING age > "88"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "494-24-7815" GROUP BY phone_number
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "46" GROUP BY ssn HAVING age > "20"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "33" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, phone_number FROM Users_DB WHERE ssn = "608-37-2410" GROUP BY ssn
+SELECT ssn FROM Users_DB WHERE ssn = "082-85-1862" GROUP BY ssn
+SELECT email_address FROM Users_DB WHERE age > "24" GROUP BY ssn OR age > "37"
+SELECT ssn FROM Users_DB WHERE ssn <> "946-20-4136" GROUP BY ssn HAVING age > "37"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "57" GROUP BY ssn OR age > "33"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "361-98-5214" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "997-87-8740" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "64" GROUP BY ssn HAVING age > "95"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "78" AND ssn = "103-05-5771"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "5" GROUP BY email_address HAVING age < "66"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "155-11-6597" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "36" GROUP BY ssn HAVING age > "31"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "38" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "54" GROUP BY ssn HAVING age > "54"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "840-38-2393"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "42" GROUP BY ssn AND phone_number = "(271)230-7941"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "36" GROUP BY ssn HAVING age > "25"
+SELECT DISTINCT ssn, age, ssn FROM Users_DB WHERE age > "24"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "72" GROUP BY ssn HAVING age > "17"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "37" GROUP BY ssn HAVING age > "55"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "861-15-1927" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "51" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "11" GROUP BY ssn HAVING age > "94"
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "82" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "9" ORDER BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "2" GROUP BY ssn HAVING age > "37"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "696-85-1102" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "2" GROUP BY ssn HAVING age > "23"
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "72" GROUP BY ssn HAVING age > "95"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "583-46-6415" ORDER BY ssn
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "88" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "550-07-7369"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "166-69-9658" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "260-24-8029" GROUP BY ssn
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "17" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "623-22-6203" GROUP BY ssn HAVING age > "25"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "696-33-4427" ORDER BY name
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "777-64-5301" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "70" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "697-65-2683" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age < "6" GROUP BY ssn HAVING age > "8"
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "65" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "58" GROUP BY phone_number HAVING age > "71"
+SELECT DISTINCT ssn, ssn, ssn, ssn FROM Users_DB WHERE age >= "47" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "49" GROUP BY ssn HAVING age > "23"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "085-19-5194" GROUP BY phone_number
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "61" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "29" GROUP BY ssn HAVING age > "92"
+SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "710-46-5520" GROUP BY ssn HAVING age > "39"
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "473-20-7600" GROUP BY ssn HAVING age >= "43"
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "95" GROUP BY ssn
+SELECT DISTINCT ssn FROM Users_DB WHERE age > "43" GROUP BY ssn HAVING age > "28"
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "69" GROUP BY ssn
+SELECT DISTINCT age, ssn FROM Users_DB WHERE age > "26" GROUP BY ssn HAVING age = "30"
+SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "10" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "78" GROUP BY ssn
+SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "49" GROUP BY ssn

@@ -1,0 +1,985 @@
+
+    #1:
+        SELECT DISTINCT ssn FROM Users_DB WHERE email_address <> "d@k.com"
+        INSERT INTO Users_DB VALUES ("ponxe", "15", "irkwl@slapu.net", "(899)583-8477", "609-65-5111")
+        Successful Insert ✓
+
+    
+    #2:
+        SELECT ssn FROM Users_DB WHERE age < "52" OR age >= "20" OR age <= "10"
+        INSERT INTO Users_DB VALUES ("mabigvahka'eb", "69", "rsonr@xjctvyb.org", "(309)258-6866", "566-53-6848")
+        Successful Insert ✓
+
+    
+    #3:
+        SELECT name, email_address, name FROM Users_DB WHERE ssn = "906-97-9105"
+        INSERT INTO Users_DB VALUES ("po'iyaz", "24", "woewfsejmzl@hwhrgq.org", "(809)985-2004", "906-97-9105")
+        Successful Insert ✓
+
+    
+    #4:
+        SELECT DISTINCT email_address, age FROM Users_DB WHERE age < "46" OR age <= "94" OR phone_number = "(259)967-0437"
+        INSERT INTO Users_DB VALUES ("xuir", "27", "aebsoi@houuzto.com", "(259)967-0437", "975-54-1520")
+        Successful Insert ✓
+
+    
+    #5:
+        SELECT name FROM Users_DB WHERE age >= "48" OR phone_number = "(819)424-0367"
+        INSERT INTO Users_DB VALUES ("zetelciv", "63", "xyhet@wujbp.com", "(819)424-0367", "707-82-9751")
+        Successful Insert ✓
+
+    
+    #7:
+        SELECT name FROM Users_DB WHERE ssn = "533-78-0475" ORDER BY phone_number
+        INSERT INTO Users_DB VALUES ("vinax", "63", "pojbdoc@kukbf.edu", "(319)531-4627", "533-78-0475")
+        Successful Insert ✓
+
+    
+    #8:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age <= "58"
+        INSERT INTO Users_DB VALUES ("moflikcurbi'ic", "22", "bzwqfqr@xydmru.org", "(264)226-8505", "861-99-9014")
+        Successful Insert ✓
+
+    
+    #9:
+        SELECT email_address FROM Users_DB WHERE email_address <> "i@bg.edu" ORDER BY phone_number
+        INSERT INTO Users_DB VALUES ("ufga'udkayac", "4", "dwhdllq@jfzwbvv.net", "(935)207-6075", "562-13-1408")
+        Successful Insert ✓
+
+    
+    #10:
+        SELECT email_address FROM Users_DB WHERE email_address = "t@q.edu" ORDER BY age
+        INSERT INTO Users_DB VALUES ("yedhitu'itro'af", "15", "t@q.edu", "(823)462-2775", "123-50-3443")
+        Successful Insert ✓
+
+    
+    #11:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "277-99-7014" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("keblef", "10", "xvrfrzsmg@evyhdqr.edu", "(929)214-5687", "277-99-7014")
+        Successful Insert ✓
+
+    
+    #12:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "822-00-5761" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("su'irbusvu'ih", "46", "qvnyyytq@ojblykj.edu", "(448)526-4449", "822-00-5761")
+        Successful Insert ✓
+
+    
+    #13:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "770-05-5441" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("ikerxop", "94", "kjdtcyegerz@pdxjnx.net", "(689)774-6859", "770-05-5441")
+        Successful Insert ✓
+
+    
+    #14:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "669-94-9576" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("ka'axma'oj", "5", "kzovdyed@fttzn.com", "(952)588-4298", "669-94-9576")
+        Successful Insert ✓
+
+    
+    #15:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "99" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("hukucoh", "100", "zsvyikoa@fdmtt.org", "(486)424-0610", "558-84-8896")
+        Successful Insert ✓
+
+    
+    #16:
+        SELECT DISTINCT email_address, ssn, ssn FROM Users_DB WHERE age > "26" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("oslulsir", "57", "dlqhmzm@zcij.edu", "(813)386-7054", "273-51-3186")
+        Successful Insert ✓
+
+    
+    #17:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "946-91-0063" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("lucemal", "59", "sgskmzdyuo@hytxae.edu", "(981)590-8355", "946-91-0063")
+        Successful Insert ✓
+
+    
+    #18:
+        SELECT ssn FROM Users_DB WHERE ssn = "869-51-6291" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("je'egazfu", "11", "srllumdns@hkipwt.net", "(451)245-1958", "869-51-6291")
+        Successful Insert ✓
+
+    
+    #20:
+        SELECT DISTINCT age, ssn FROM Users_DB WHERE ssn = "068-68-9196" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("he'ondi'ovdo'opki'ez", "52", "pfzrramdxvm@hvrj.net", "(322)632-5166", "068-68-9196")
+        Successful Insert ✓
+
+    
+    #21:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "268-67-3730" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("immiusfoj", "38", "nucbfqcsa@ugjg.edu", "(458)401-9761", "268-67-3730")
+        Successful Insert ✓
+
+    
+    #22:
+        SELECT ssn FROM Users_DB WHERE ssn <> "369-61-4215"
+        INSERT INTO Users_DB VALUES ("alej", "19", "vndeqwq@fhmjrrf.edu", "(429)530-2841", "178-77-9018")
+        Successful Insert ✓
+
+    
+    #23:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "997-45-1395" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("zena'ahna'or", "85", "dspbgwuripc@acrptaj.com", "(630)519-0727", "997-45-1395")
+        Successful Insert ✓
+
+    
+    #24:
+        SELECT DISTINCT age, ssn FROM Users_DB WHERE age > "42" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("zo'ufzeuh", "72", "qrbssv@prqbtgv.org", "(262)620-8746", "828-62-8311")
+        Successful Insert ✓
+
+    
+    #26:
+        SELECT DISTINCT age, ssn FROM Users_DB WHERE age > "31" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("si'apla", "52", "itaxfjyxi@wmeoz.com", "(981)959-9173", "445-96-1100")
+        Successful Insert ✓
+
+    
+    #27:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "827-87-4067" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("ubso'arelit", "44", "drooyywnf@tvgnf.org", "(637)209-2231", "827-87-4067")
+        Successful Insert ✓
+
+    
+    #28:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "310-49-4593" GROUP BY ssn HAVING age > "30"
+        INSERT INTO Users_DB VALUES ("bevan", "38", "fgvcpjdew@zfnaqai.com", "(315)404-4405", "310-49-4593")
+        Successful Insert ✓
+
+    
+    #29:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "724-30-3984" GROUP BY ssn HAVING age > "23"
+        INSERT INTO Users_DB VALUES ("sidasixuf", "75", "nfoso@zsbswu.net", "(204)316-8268", "724-30-3984")
+        Successful Insert ✓
+
+    
+    #30:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "35" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("nalu'enye'orbe'oh", "59", "zovki@ciqk.edu", "(398)626-7251", "266-49-8752")
+        Successful Insert ✓
+
+    
+    #32:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "277-85-5205" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("fo'iljosne'atvi", "52", "lzzeqos@hqrexs.edu", "(354)969-3958", "277-85-5205")
+        Successful Insert ✓
+
+    
+    #33:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "74" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("ju'afuz", "92", "obcvw@iqmgv.org", "(414)413-2791", "691-69-6195")
+        Successful Insert ✓
+
+    
+    #36:
+        SELECT DISTINCT ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "34" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("fosyi'ahiheg", "83", "fmfjzftup@grjs.org", "(347)986-6768", "946-43-9286")
+        Successful Insert ✓
+
+    
+    #37:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "84" GROUP BY ssn HAVING ssn <> "211-65-6345"
+        INSERT INTO Users_DB VALUES ("piablahgor", "95", "kmaoxgtbvig@kkhz.com", "(385)697-4837", "339-31-6092")
+        Successful Insert ✓
+
+    
+    #38:
+        SELECT DISTINCT ssn, name FROM Users_DB WHERE age > "55" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("irepxinar", "71", "xzcesrs@gdcofu.edu", "(570)749-0294", "346-80-9464")
+        Successful Insert ✓
+
+    
+    #39:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "867-55-7616" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("mieg", "30", "bkmhxgsrikq@mbeviu.edu", "(885)720-5897", "867-55-7616")
+        Successful Insert ✓
+
+    
+    #41:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "582-08-6599" GROUP BY phone_number HAVING age > "22"
+        INSERT INTO Users_DB VALUES ("johu'ifilna", "85", "lkggufrgpb@jepfwca.net", "(776)942-7201", "582-08-6599")
+        Successful Insert ✓
+
+    
+    #42:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "23" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("vi'ihvetom", "45", "pkhdm@rmafkei.edu", "(647)471-6420", "148-24-7907")
+        Successful Insert ✓
+
+    
+    #43:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age >= "64" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("fa'uyjah", "65", "nhbfyrixh@qwbt.org", "(916)519-9705", "570-60-8381")
+        Successful Insert ✓
+
+    
+    #44:
+        SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "27" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("zosxed", "75", "nytwxyzw@uildno.net", "(520)653-2484", "370-53-4805")
+        Successful Insert ✓
+
+    
+    #45:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "035-29-0219" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("ru'estummilin", "17", "qyhdblo@fxslw.net", "(637)789-4998", "035-29-0219")
+        Successful Insert ✓
+
+    
+    #46:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "49" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("rarnirru'ol", "91", "pbzofwgbvx@tlvgblj.net", "(955)448-8741", "211-67-9051")
+        Successful Insert ✓
+
+    
+    #47:
+        SELECT DISTINCT ssn FROM Users_DB WHERE email_address = "f@f.edu" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("sicme", "22", "f@f.edu", "(778)388-4695", "124-78-6511")
+        Successful Insert ✓
+
+    
+    #48:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age = "25" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("zixokte", "25", "xvfuisv@brylas.com", "(642)853-1456", "275-60-6005")
+        Successful Insert ✓
+
+    
+    #49:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "7" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("rizin", "29", "ftzvumsjx@vrax.org", "(234)315-8681", "549-48-8936")
+        Successful Insert ✓
+
+    
+    #50:
+        SELECT DISTINCT phone_number, ssn FROM Users_DB WHERE age > "22" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("rigogluiz", "91", "btrkczl@nyeuoqf.edu", "(859)979-6136", "939-33-6032")
+        Successful Insert ✓
+
+    
+    #51:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "710-19-2843" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("ru'opusku", "93", "hjoqha@jnkydr.com", "(750)703-3417", "710-19-2843")
+        Successful Insert ✓
+
+    
+    #52:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "193-95-6636" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("edxi", "89", "fdlnscwof@zajtu.org", "(252)401-3862", "193-95-6636")
+        Successful Insert ✓
+
+    
+    #53:
+        SELECT ssn FROM Users_DB WHERE ssn = "901-80-2664" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("iccehidbal", "77", "gttyl@uasdev.net", "(318)515-7617", "901-80-2664")
+        Successful Insert ✓
+
+    
+    #54:
+        SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "69" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("uzcizvi'if", "90", "fbfyczlvazm@hqpetxz.net", "(658)274-0847", "830-71-4533")
+        Successful Insert ✓
+
+    
+    #56:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "522-88-7240" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("abosyo", "62", "pdbvojv@zeditpr.org", "(906)784-3424", "522-88-7240")
+        Successful Insert ✓
+
+    
+    #57:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "27" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("abdettiex", "69", "tazzxsecm@nvlxy.net", "(929)357-1693", "140-42-4642")
+        Successful Insert ✓
+
+    
+    #58:
+        SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "26" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("foptu'em", "65", "ienzzhdb@rqycxe.edu", "(687)836-8377", "226-27-4617")
+        Successful Insert ✓
+
+    
+    #60:
+        SELECT DISTINCT name, ssn FROM Users_DB WHERE age > "39" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("lu'umto'etguil", "82", "vuqhibnthyj@vlhyis.com", "(940)858-9912", "217-34-4632")
+        Successful Insert ✓
+
+    
+    #61:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "98" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("sidjesfu'osga", "100", "omfmxjfsjod@httxwf.edu", "(352)995-2111", "493-16-5160")
+        Successful Insert ✓
+
+    
+    #62:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "086-63-7892" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("mojrefke", "40", "ewyfgwlscu@ypax.com", "(652)801-0312", "086-63-7892")
+        Successful Insert ✓
+
+    
+    #64:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age > "75" GROUP BY ssn HAVING age > "23"
+        INSERT INTO Users_DB VALUES ("kahduxto'uz", "93", "eiaeubo@jwxah.edu", "(622)470-1881", "496-72-3916")
+        Successful Insert ✓
+
+    
+    #65:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age > "11" GROUP BY ssn HAVING age > "24"
+        INSERT INTO Users_DB VALUES ("ilrud", "79", "dtwmy@eytn.edu", "(808)344-2807", "133-41-3901")
+        Successful Insert ✓
+
+    
+    #66:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age > "37" AND ssn = "824-99-4174"
+        INSERT INTO Users_DB VALUES ("gu'obbuig", "48", "pnjcdrdapzc@nkszcsb.org", "(317)988-7492", "824-99-4174")
+        Successful Insert ✓
+
+    
+    #67:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "71" OR age > "79"
+        INSERT INTO Users_DB VALUES ("lozi'osfu'osip", "87", "qcktdlrq@qfyujj.edu", "(809)482-9846", "579-99-6608")
+        Successful Insert ✓
+
+    
+    #68:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age = "48" GROUP BY ssn HAVING age > "17"
+        INSERT INTO Users_DB VALUES ("sifbotsoxa'um", "48", "nxtqy@uxqivzp.edu", "(339)239-6968", "876-19-7470")
+        Successful Insert ✓
+
+    
+    #69:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "47" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("jihimcaxbuv", "80", "hdepcng@awqbuuw.org", "(214)723-6490", "300-18-7892")
+        Successful Insert ✓
+
+    
+    #70:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age > "10" GROUP BY ssn HAVING age > "92"
+        INSERT INTO Users_DB VALUES ("licimoy", "94", "dtloxx@oetmnrq.com", "(319)744-3333", "491-45-2437")
+        Successful Insert ✓
+
+    
+    #72:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "284-65-3707" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("buba'ojrufna", "95", "sfagogw@nqoin.edu", "(778)599-8020", "284-65-3707")
+        Successful Insert ✓
+
+    
+    #73:
+        SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age < "3" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("gi'asgoconve", "0", "vojckdgflr@myhkchj.com", "(574)272-4182", "300-17-2206")
+        Successful Insert ✓
+
+    
+    #74:
+        SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "54"
+        INSERT INTO Users_DB VALUES ("sixi'im", "72", "dwbhklhi@vqpo.net", "(458)387-3728", "311-70-8941")
+        Successful Insert ✓
+
+    
+    #75:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "730-33-4590" GROUP BY ssn HAVING age > "50"
+        INSERT INTO Users_DB VALUES ("ra'exru'akce'utoj", "71", "osirbra@bdlkix.org", "(960)359-0314", "730-33-4590")
+        Successful Insert ✓
+
+    
+    #76:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "977-17-8504" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("ka'anuvyi'iz", "45", "vgxjpuy@ddql.edu", "(757)332-8400", "977-17-8504")
+        Successful Insert ✓
+
+    
+    #78:
+        SELECT DISTINCT ssn, email_address FROM Users_DB WHERE age > "51" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("giindo'uv", "80", "qnujck@scrvo.edu", "(983)360-5897", "773-70-4615")
+        Successful Insert ✓
+
+    
+    #79:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "836-18-9448" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("yefha'oh", "57", "fwuelefuce@rivelwk.net", "(487)941-9766", "836-18-9448")
+        Successful Insert ✓
+
+    
+    #80:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "38" GROUP BY ssn HAVING age > "6"
+        INSERT INTO Users_DB VALUES ("boxubuso", "50", "eddyd@krqap.net", "(401)852-7005", "726-49-2546")
+        Successful Insert ✓
+
+    
+    #81:
+        SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE ssn = "383-94-9137" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("ha'ijocax", "42", "zdhpgg@hqvpmni.net", "(606)584-0459", "383-94-9137")
+        Successful Insert ✓
+
+    
+    #82:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "632-16-2511" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("teaz", "65", "nbmjmqz@kkvlh.com", "(377)297-0216", "632-16-2511")
+        Successful Insert ✓
+
+    
+    #83:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn <> "404-41-3822" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("icpazla", "52", "rlowr@oair.net", "(704)866-9455", "322-47-5609")
+        Successful Insert ✓
+
+    
+    #84:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age > "29" GROUP BY ssn HAVING age > "33"
+        INSERT INTO Users_DB VALUES ("yukuv", "61", "epwdps@uuxghgy.edu", "(779)671-5173", "157-16-2584")
+        Successful Insert ✓
+
+    
+    #85:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "4" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("usjo'ik", "33", "sesin@ksls.org", "(508)449-1623", "962-24-9421")
+        Successful Insert ✓
+
+    
+    #86:
+        SELECT DISTINCT ssn, name, ssn FROM Users_DB WHERE age > "77"
+        INSERT INTO Users_DB VALUES ("ni'oxarsusse", "95", "bqjsdbj@lnuaj.com", "(803)205-9287", "179-89-5534")
+        Successful Insert ✓
+
+    
+    #88:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "16" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("ovrelke'igdif", "58", "icnyud@pywizj.org", "(925)467-2352", "752-23-9504")
+        Successful Insert ✓
+
+    
+    #89:
+        SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE ssn = "082-46-7073" GROUP BY ssn HAVING age > "28"
+        INSERT INTO Users_DB VALUES ("totardezef", "50", "xpmfnl@kopgm.net", "(314)834-0234", "082-46-7073")
+        Successful Insert ✓
+
+    
+    #92:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "45" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("zadajsusa", "68", "qcmxznmlzj@meuufop.org", "(334)574-3896", "430-38-6034")
+        Successful Insert ✓
+
+    
+    #94:
+        SELECT DISTINCT ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "39" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("leli'urfa", "89", "ppamwnjyzy@begitcz.net", "(651)720-2666", "271-49-5908")
+        Successful Insert ✓
+
+    
+    #95:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age > "58" GROUP BY ssn HAVING age > "33"
+        INSERT INTO Users_DB VALUES ("cuko", "70", "emgemhf@sgaowjs.org", "(256)472-3864", "379-86-5939")
+        Successful Insert ✓
+
+    
+    #96:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "269-06-2442" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("bezo'ul", "94", "vlhzps@pmcgbrp.org", "(424)838-3153", "269-06-2442")
+        Successful Insert ✓
+
+    
+    #97:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "204-74-7427" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("ojde'uvlo'uy", "20", "onqhj@ytbzseg.com", "(640)395-7297", "204-74-7427")
+        Successful Insert ✓
+
+    
+    #98:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "93" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("unfozbih", "95", "eedrsx@ahvlebf.edu", "(820)989-6441", "943-14-8356")
+        Successful Insert ✓
+
+    
+    #99:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "327-43-7687" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("ibkal", "34", "rybnmhpsy@mama.net", "(233)244-2669", "327-43-7687")
+        Successful Insert ✓
+
+    
+    #100:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age >= "85" OR ssn <> "606-60-7876"
+        INSERT INTO Users_DB VALUES ("roeslev", "99", "acfwyf@awrywz.com", "(751)521-5350", "113-87-8065")
+        Successful Insert ✓
+
+    
+    #102:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "11" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("xo'ambu", "31", "vvicc@fxkzd.net", "(266)731-3956", "450-31-6001")
+        Successful Insert ✓
+
+    
+    #103:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "110-86-1240" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("emnuxugyup", "7", "oiuuc@kybnuh.org", "(729)699-9599", "110-86-1240")
+        Successful Insert ✓
+
+    
+    #104:
+        SELECT DISTINCT ssn, ssn, phone_number FROM Users_DB WHERE age > "47"
+        INSERT INTO Users_DB VALUES ("ilfo", "70", "yqnvdl@qtumvgm.edu", "(753)454-6850", "535-23-5271")
+        Successful Insert ✓
+
+    
+    #105:
+        SELECT DISTINCT ssn, ssn, ssn, ssn, ssn, ssn FROM Users_DB WHERE age > "91" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("niix", "99", "oymut@eysvgvn.org", "(970)988-2551", "964-99-9482")
+        Successful Insert ✓
+
+    
+    #107:
+        SELECT DISTINCT ssn FROM Users_DB WHERE name = "i" GROUP BY email_address
+        INSERT INTO Users_DB VALUES ("i", "15", "mcmolfgb@ufovq.edu", "(691)935-2909", "222-26-6491")
+        Successful Insert ✓
+
+    
+    #109:
+        SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "50"
+        INSERT INTO Users_DB VALUES ("sabjotal", "79", "aiefsgptce@qnkesa.org", "(207)558-3668", "807-34-7144")
+        Successful Insert ✓
+
+    
+    #110:
+        SELECT DISTINCT name, ssn FROM Users_DB WHERE age > "16" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("to'axno'omse'opse'ek", "81", "fidbcglc@lhxzm.com", "(878)313-4544", "677-55-2149")
+        Successful Insert ✓
+
+    
+    #111:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "3" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("uyezfuxde'af", "88", "yuvpolitktn@znpb.com", "(607)357-3730", "555-34-3160")
+        Successful Insert ✓
+
+    
+    #112:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "753-20-9285" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("omxu", "54", "zjschdk@lzzh.org", "(596)724-6319", "753-20-9285")
+        Successful Insert ✓
+
+    
+    #113:
+        SELECT ssn, name FROM Users_DB WHERE ssn = "035-51-6649" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("lurmaza'in", "8", "ilcibummez@ipsd.com", "(738)811-2712", "035-51-6649")
+        Successful Insert ✓
+
+    
+    #114:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "69" AND age > "30"
+        INSERT INTO Users_DB VALUES ("si'uxiteh", "86", "dpjoopzu@zkhyoi.edu", "(595)284-4055", "877-80-8030")
+        Successful Insert ✓
+
+    
+    #115:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "623-86-4636" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("focakmuh", "27", "wvbitthkar@hcay.net", "(437)698-2136", "623-86-4636")
+        Successful Insert ✓
+
+    
+    #117:
+        SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "67" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("ku'octi", "75", "fbfgo@pohw.net", "(211)835-8242", "360-30-8405")
+        Successful Insert ✓
+
+    
+    #118:
+        SELECT DISTINCT name FROM Users_DB WHERE ssn = "531-76-7046"
+        INSERT INTO Users_DB VALUES ("cogaxcasmes", "54", "mqfoxwdax@tvxgwy.org", "(492)414-4269", "531-76-7046")
+        Successful Insert ✓
+
+    
+    #120:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age > "78" GROUP BY ssn HAVING age > "45"
+        INSERT INTO Users_DB VALUES ("kemurxo", "98", "vgnxotksma@nbfuah.org", "(655)361-7287", "497-47-5039")
+        Successful Insert ✓
+
+    
+    #121:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "77" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("hi'oxjoer", "100", "qwznfywxhyq@kidu.com", "(538)532-5193", "778-72-4764")
+        Successful Insert ✓
+
+    
+    #122:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "699-83-7549" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("jupep", "38", "qiqys@htory.net", "(721)265-2864", "699-83-7549")
+        Successful Insert ✓
+
+    
+    #123:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "295-62-5153" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("koujpa", "45", "abqdpllx@jvlqzkn.net", "(503)676-8584", "295-62-5153")
+        Successful Insert ✓
+
+    
+    #124:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "000-30-0120" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("yi'edko'ip", "0", "uhardxipdq@mrrm.net", "(851)440-0660", "000-30-0120")
+        Successful Insert ✓
+
+    
+    #126:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "915-28-1515" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("deco'avfos", "88", "zpupnniq@rxth.org", "(409)990-2796", "915-28-1515")
+        Successful Insert ✓
+
+    
+    #127:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age > "59" GROUP BY ssn HAVING age > "55"
+        INSERT INTO Users_DB VALUES ("intayebod", "85", "pwxxckuaohw@mtbiio.edu", "(922)977-3102", "684-28-2865")
+        Successful Insert ✓
+
+    
+    #128:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "77" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("hilisaf", "85", "vmseqezyc@efawq.edu", "(207)771-8649", "998-82-3293")
+        Successful Insert ✓
+
+    
+    #129:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "558-53-6850" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("uknacuz", "76", "gvejneosz@kivyfk.edu", "(798)243-8028", "558-53-6850")
+        Successful Insert ✓
+
+    
+    #130:
+        SELECT DISTINCT name, ssn, ssn FROM Users_DB WHERE age > "55" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("sulmi'ajpa'ef", "56", "nfzfy@ofew.edu", "(973)727-1038", "919-99-7572")
+        Successful Insert ✓
+
+    
+    #131:
+        SELECT DISTINCT email_address, ssn, phone_number, ssn, ssn FROM Users_DB WHERE age > "73" GROUP BY ssn HAVING age > "54"
+        INSERT INTO Users_DB VALUES ("eypas", "90", "sqekfge@rqbztcx.com", "(434)469-4665", "670-12-9240")
+        Successful Insert ✓
+
+    
+    #132:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "88" AND ssn = "792-88-4951"
+        INSERT INTO Users_DB VALUES ("ayop", "92", "pngaybpl@zrobmq.org", "(208)680-2442", "792-88-4951")
+        Successful Insert ✓
+
+    
+    #133:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "84" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("rajko'up", "89", "xkemws@udrzzxt.org", "(904)233-6439", "288-58-4799")
+        Successful Insert ✓
+
+    
+    #134:
+        SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE ssn = "423-16-1184" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("uxpa'urpo'itus", "42", "xkvba@zyrzdzl.edu", "(332)600-9529", "423-16-1184")
+        Successful Insert ✓
+
+    
+    #135:
+        SELECT ssn FROM Users_DB WHERE ssn = "552-92-1807" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("ko'adyo", "16", "lpclznslz@dyprc.net", "(799)674-3098", "552-92-1807")
+        Successful Insert ✓
+
+    
+    #136:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "46" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("cumte'oz", "61", "uxvbbkqohke@wiucqt.edu", "(761)259-7952", "861-72-3457")
+        Successful Insert ✓
+
+    
+    #137:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "87" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("lohzi'ec", "97", "qavjje@mhwk.net", "(370)512-9416", "194-14-5790")
+        Successful Insert ✓
+
+    
+    #138:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "568-60-6476" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("gime'opja'uz", "45", "satqq@bkjq.com", "(692)567-8665", "568-60-6476")
+        Successful Insert ✓
+
+    
+    #139:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age >= "38" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("irzucpe", "55", "lbxlewe@oyizwhs.com", "(510)857-9566", "138-18-9013")
+        Successful Insert ✓
+
+    
+    #141:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "494-24-7815" GROUP BY phone_number
+        INSERT INTO Users_DB VALUES ("pogke'omraxah", "19", "tslnzzxr@fawgrei.org", "(987)556-8508", "494-24-7815")
+        Successful Insert ✓
+
+    
+    #142:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age > "46" GROUP BY ssn HAVING age > "20"
+        INSERT INTO Users_DB VALUES ("meflerem", "60", "wirln@qoltt.com", "(953)947-8899", "861-61-3937")
+        Successful Insert ✓
+
+    
+    #143:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "33" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("foga'urjita'en", "78", "mswpkhxny@kfaut.edu", "(376)813-9732", "487-21-3744")
+        Successful Insert ✓
+
+    
+    #144:
+        SELECT DISTINCT ssn, ssn, phone_number FROM Users_DB WHERE ssn = "608-37-2410" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("je'exik", "99", "azdsojqu@uzxai.org", "(964)631-6928", "608-37-2410")
+        Successful Insert ✓
+
+    
+    #145:
+        SELECT ssn FROM Users_DB WHERE ssn = "082-85-1862" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("hegotapop", "4", "dlauxav@xiua.org", "(560)333-9441", "082-85-1862")
+        Successful Insert ✓
+
+    
+    #147:
+        SELECT ssn FROM Users_DB WHERE ssn <> "946-20-4136" GROUP BY ssn HAVING age > "37"
+        INSERT INTO Users_DB VALUES ("fajih", "44", "hbcbvs@fexhs.com", "(729)356-6839", "528-90-3706")
+        Successful Insert ✓
+
+    
+    #149:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "361-98-5214" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("obyo", "65", "ggeohfxeh@kkvgk.org", "(467)479-4778", "361-98-5214")
+        Successful Insert ✓
+
+    
+    #150:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "997-87-8740" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("vehi'ajve'em", "33", "nghqbcuv@vehr.com", "(228)491-8697", "997-87-8740")
+        Successful Insert ✓
+
+    
+    #152:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age > "78" AND ssn = "103-05-5771"
+        INSERT INTO Users_DB VALUES ("duxubhit", "100", "onnpbcxt@srqlcs.edu", "(425)766-6534", "103-05-5771")
+        Successful Insert ✓
+
+    
+    #153:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age > "5" GROUP BY email_address HAVING age < "66"
+        INSERT INTO Users_DB VALUES ("girus", "13", "jlotok@rdbtccp.org", "(410)979-4245", "265-93-1187")
+        Successful Insert ✓
+
+    
+    #154:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "155-11-6597" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("lepa'ocot", "12", "atfhrbcdxn@fwfulem.edu", "(981)908-8372", "155-11-6597")
+        Successful Insert ✓
+
+    
+    #155:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age > "36" GROUP BY ssn HAVING age > "31"
+        INSERT INTO Users_DB VALUES ("jegiten", "38", "wkemjoywhr@ezxt.edu", "(251)969-9950", "130-48-2184")
+        Successful Insert ✓
+
+    
+    #156:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "38" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("po'ucla'axfiun", "93", "wneqwxbbu@zfophxy.edu", "(680)573-2326", "201-24-9412")
+        Successful Insert ✓
+
+    
+    #157:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age > "54" GROUP BY ssn HAVING age > "54"
+        INSERT INTO Users_DB VALUES ("va'ejet", "70", "lvdvhjnxvf@qibvs.edu", "(425)961-9335", "313-64-6036")
+        Successful Insert ✓
+
+    
+    #158:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "840-38-2393"
+        INSERT INTO Users_DB VALUES ("dalvofoz", "28", "pgxfcbauhy@boormov.edu", "(866)749-7697", "840-38-2393")
+        Successful Insert ✓
+
+    
+    #159:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age > "42" GROUP BY ssn AND phone_number = "(271)230-7941"
+        INSERT INTO Users_DB VALUES ("sunbo", "89", "xitbabjw@ooqunky.com", "(271)230-7941", "167-47-1430")
+        Successful Insert ✓
+
+    
+    #160:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age > "36" GROUP BY ssn HAVING age > "25"
+        INSERT INTO Users_DB VALUES ("vi'idxinho", "54", "sccdq@ojuuv.edu", "(543)270-8610", "750-21-7704")
+        Successful Insert ✓
+
+    
+    #161:
+        SELECT DISTINCT ssn, age, ssn FROM Users_DB WHERE age > "24"
+        INSERT INTO Users_DB VALUES ("yeye'igozub", "49", "ngpcwcwk@sbvdm.net", "(975)585-7578", "824-72-8787")
+        Successful Insert ✓
+
+    
+    #162:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "72" GROUP BY ssn HAVING age > "17"
+        INSERT INTO Users_DB VALUES ("ijroz", "89", "qnsazekpg@ruhaie.org", "(465)390-9935", "952-43-9944")
+        Successful Insert ✓
+
+    
+    #163:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age > "37" GROUP BY ssn HAVING age > "55"
+        INSERT INTO Users_DB VALUES ("xohu'uzbid", "92", "twoqjma@hpyligm.org", "(845)360-1242", "627-86-3906")
+        Successful Insert ✓
+
+    
+    #164:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "861-15-1927" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("fufo'uyfi", "65", "xofth@wdakpc.edu", "(330)631-8776", "861-15-1927")
+        Successful Insert ✓
+
+    
+    #165:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "51" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("imrutxid", "69", "hdvxg@vmgi.com", "(883)779-7257", "440-84-5447")
+        Successful Insert ✓
+
+    
+    #167:
+        SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "82" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("odbe", "85", "tykeiufdwoi@jpsxce.org", "(431)904-0524", "418-13-3292")
+        Successful Insert ✓
+
+    
+    #168:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "9" ORDER BY ssn
+        INSERT INTO Users_DB VALUES ("nata'ajxi'um", "22", "fzlgjmidrq@rsgyklx.com", "(607)616-7886", "523-40-1767")
+        Successful Insert ✓
+
+    
+    #170:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "696-85-1102" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("yu'italtul", "3", "ahubtdxvz@nymtn.com", "(742)384-7699", "696-85-1102")
+        Successful Insert ✓
+
+    
+    #173:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "583-46-6415" ORDER BY ssn
+        INSERT INTO Users_DB VALUES ("tayictexu", "83", "mjqucq@bzwvkj.net", "(940)877-5149", "583-46-6415")
+        Successful Insert ✓
+
+    
+    #174:
+        SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "88" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("na'opujah", "91", "raccwfpz@dxlluc.org", "(273)233-4445", "104-81-3589")
+        Successful Insert ✓
+
+    
+    #175:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "550-07-7369"
+        INSERT INTO Users_DB VALUES ("poxev", "68", "crmxextj@skrwgo.net", "(849)919-4047", "550-07-7369")
+        Successful Insert ✓
+
+    
+    #177:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "260-24-8029" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("riinha'elle", "24", "yqnfnnv@yczvie.edu", "(555)260-9161", "260-24-8029")
+        Successful Insert ✓
+
+    
+    #178:
+        SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "17" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("no'ojtum", "71", "fbuwicf@gvjhi.net", "(901)961-3399", "351-93-5369")
+        Successful Insert ✓
+
+    
+    #179:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "623-22-6203" GROUP BY ssn HAVING age > "25"
+        INSERT INTO Users_DB VALUES ("zokjuav", "89", "msquihmnhb@ydek.net", "(688)403-3637", "623-22-6203")
+        Successful Insert ✓
+
+    
+    #180:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "696-33-4427" ORDER BY name
+        INSERT INTO Users_DB VALUES ("xejus", "10", "ylrqahnww@ottxc.net", "(881)984-5743", "696-33-4427")
+        Successful Insert ✓
+
+    
+    #181:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "777-64-5301" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("yiasleye'ug", "2", "vjylmubyf@wxsfcr.edu", "(363)634-9979", "777-64-5301")
+        Successful Insert ✓
+
+    
+    #182:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "70" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("korra'ozye'utda'ig", "87", "enndawr@drwa.edu", "(993)464-8071", "900-23-8048")
+        Successful Insert ✓
+
+    
+    #183:
+        SELECT DISTINCT ssn FROM Users_DB WHERE ssn = "697-65-2683" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("pa'exbeki'ak", "42", "eqtaxh@fhbmjw.org", "(361)709-9249", "697-65-2683")
+        Successful Insert ✓
+
+    
+    #185:
+        SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "65" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("ofej", "75", "tympocaj@hmrm.net", "(315)672-4466", "670-26-6247")
+        Successful Insert ✓
+
+    
+    #186:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age > "58" GROUP BY phone_number HAVING age > "71"
+        INSERT INTO Users_DB VALUES ("ixne'eyihro", "86", "logpc@fmkfkto.org", "(416)922-7486", "104-39-9945")
+        Successful Insert ✓
+
+    
+    #187:
+        SELECT DISTINCT ssn, ssn, ssn, ssn FROM Users_DB WHERE age >= "47" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("uvzo'uh", "58", "kvrtrbg@uwyt.org", "(663)256-2213", "692-90-9229")
+        Successful Insert ✓
+
+    
+    #188:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age > "49" GROUP BY ssn HAVING age > "23"
+        INSERT INTO Users_DB VALUES ("uvdid", "93", "spwliwhzsne@bcimzi.net", "(354)691-7728", "492-53-7707")
+        Successful Insert ✓
+
+    
+    #190:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "61" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("ibxoge'og", "94", "wwtxatc@cqvsimg.org", "(217)382-8962", "961-48-1408")
+        Successful Insert ✓
+
+    
+    #193:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE ssn = "473-20-7600" GROUP BY ssn HAVING age >= "43"
+        INSERT INTO Users_DB VALUES ("beduh", "59", "eznxbtby@lowyrci.edu", "(343)433-5022", "473-20-7600")
+        Successful Insert ✓
+
+    
+    #194:
+        SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "95" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("kezubtizi", "98", "ilvjzmzr@ueynsge.org", "(656)474-7421", "203-27-9098")
+        Successful Insert ✓
+
+    
+    #195:
+        SELECT DISTINCT ssn FROM Users_DB WHERE age > "43" GROUP BY ssn HAVING age > "28"
+        INSERT INTO Users_DB VALUES ("holo'un", "98", "slpqjfpqgym@aazgov.net", "(324)768-4147", "364-61-2181")
+        Successful Insert ✓
+
+    
+    #196:
+        SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "69" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("yayodtag", "93", "bjfit@gjsy.org", "(418)278-5032", "481-99-9144")
+        Successful Insert ✓
+
+    
+    #198:
+        SELECT DISTINCT ssn, ssn, ssn FROM Users_DB WHERE age > "10" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("hudib", "85", "dtyuamtov@nhrq.org", "(875)576-5203", "731-98-2419")
+        Successful Insert ✓
+
+    
+    #199:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "78" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("elokef", "93", "prvpwbzydfa@oysgrq.edu", "(424)357-3099", "468-78-4547")
+        Successful Insert ✓
+
+    
+    #200:
+        SELECT DISTINCT ssn, ssn FROM Users_DB WHERE age > "49" GROUP BY ssn
+        INSERT INTO Users_DB VALUES ("usemfilu'es", "60", "babaf@mokgd.org", "(853)587-6356", "725-54-1226")
+        Successful Insert ✓
+
+    

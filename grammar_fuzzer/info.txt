@@ -1,0 +1,7 @@
+<SelList>;<SelList> ,  <Attribute> 
+<Condition>;<Comparison>   <GroupBy> 
+<Attribute>;ssn 
+<Attribute>;ssn 
+<Attribute>;ssn 
+<Comparator>;> 
+67574
