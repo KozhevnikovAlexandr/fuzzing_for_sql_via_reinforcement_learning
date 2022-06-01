@@ -1,0 +1,23 @@
+version: '3.10'
+
+# docker-compose -f "docker-compose.yml" up
+
+services:
+  app:
+    image: s17v3r/flaskapp
+    container_name: flask_app
+    environment:
+      - DATABASE_URL=postgresql://user:password@db:5432/postgresdb
+    ports:
+      - "5000:5000"
+    expose:
+      - 5000
+    depends_on:
+      - db
+    tty: true
+  db:
+    image: s17v3r/postgresdb
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=postgresdb
